@@ -7,7 +7,7 @@ Incluye funcionalidades de búsqueda por nombre y paginación para manejar la vi
 
 # Como ejecutar la aplicacion
 
-1- Clonar el respositorio https://github.com/07alejandroarenas/PruebaTecnica-AlejandroArenas/
+1- Clonar el respositorio (https://github.com/07alejandroarenas/PruebaTecnicaDomina-AlejandroArenas)
 
 
 2- Instalar dependencias
