@@ -1,4 +1,5 @@
 import React from 'react'
+import './UserList.css' // Asegúrate de tener este archivo CSS para los estilos
 
 const UserList = ({users}) => {
     if (!Array.isArray(users)) {
@@ -6,10 +7,10 @@ const UserList = ({users}) => {
         return null;
       }
   return (
-    <ul>
+    <ul className='user-list'>
       {
         users.map(user => (
-            <li key={user.id}>{user.name}</li> //Verificar si es necesario el email o si se usa en otra li. O si mejor no se usa.
+            <li key={user.id}> <span className='user-title'> {user.name} </span></li> //Verificar si es necesario el email o si se usa en otra li. O si mejor no se usa.
         ))      }
     </ul>
   )
